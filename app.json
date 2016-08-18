@@ -1,0 +1,5 @@
+{
+  "name": "Spring Boot Demo for Android",
+  "description": "This is a small demo application for showing how to run a Spring Boot application on Heroku.",
+  "repository": "https://github.com/jkutner/spring-boot-android-service"
+}
