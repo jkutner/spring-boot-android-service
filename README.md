@@ -9,6 +9,7 @@ Or follow these steps, after installing the [Heroku Toolbelt](https://toolbelt.h
 ```sh-session
 $ git clone https://github.com/kissaten/spring-boot-android-service
 $ cd spring-boot-android-service
+$ git checkout -t origin/db
 $ heroku create
 $ git push heroku master
 $ heroku open
