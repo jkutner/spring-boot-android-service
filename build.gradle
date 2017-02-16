@@ -1,6 +1,6 @@
 buildscript {
 	ext {
-		springBootVersion = '1.4.0.RELEASE'
+		springBootVersion = '1.4.1.RELEASE'
 	}
 	repositories {
 		mavenCentral()
@@ -32,6 +32,7 @@ dependencies {
 	compile('org.postgresql:postgresql:9.4-1203-jdbc42')
 	compile('javax.validation:validation-api:1.1.0.Final')
 	compile('org.liquibase:liquibase-core:3.4.1')
+	compile('com.stormpath.spring:stormpath-default-spring-boot-starter:1.2.2')
 	testCompile('org.springframework.boot:spring-boot-starter-test')
 }
 
